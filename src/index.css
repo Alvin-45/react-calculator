@@ -1,0 +1,61 @@
+#divsym,#plussym,#eqsym,#minsym,#mulsym{
+    background-color: #ff8b06;
+    font-size: 25px;
+    font-weight: 700;
+}
+#mulsym{
+    padding-top: 10px;
+}
+#resultbox{
+    background-color: #242323;
+}
+.mainfullbody{
+    width: 380px;
+    height: 600px;
+    padding-left: 10%;
+    background-color: black;
+    border-radius: 30px;
+}
+@media only screen and (max-width: 500px) {
+    body{
+        background-color: black;
+    }
+    .mainfullbody{
+        height: 400px;
+        width: 100%;
+    }
+    #resultbox{
+        padding-top: 60%;
+        margin-bottom: 0px;
+        background-color: black;
+        
+    }
+    #input1{
+        width: 162px;
+    }
+    #delbt{
+        width: 81px;
+    }
+    .mainfullbody{
+        width: 100%;
+        height: 100vh;
+    }
+    .small-box input[type="button"] {
+        width: 81px;
+    }
+    #input2{
+        width: 170px;
+    }
+}
+@media only screen and (max-width: 376px) {
+    .key{
+        width: 100%;
+        margin: opx;
+    }
+    #resultbox{
+        padding-top: 10%;
+        margin-bottom: 0px;
+        
+        
+    }
+}

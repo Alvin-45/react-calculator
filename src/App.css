@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+#input1 {
+  width: 152px;
+  height: 65px;
+  border-radius: 30px;
+  background-color: rgb(252, 15, 15);
+  color: white;
+  font-weight: 700;
+  border: 1px solid #121212;
+}
+#delbt {
+  background-color: rgb(252, 15, 15);
+  color: white;
+  font-weight: 700;
+  border: 1px solid #121212;
+}
+.small-box input[type="button"] {
+  width: 71px;
+  height: 71px;
+  font-weight: 700;
+  border-radius: 50%;
+  font-size: 20px;
+  background-color: rgb(74, 72, 72);
+  color: white;
+  border: 1px solid #b1adad;
+  margin: 4px;
+}
+
+.small-box input[type="button"]:hover {
+  background-color: rgb(13, 13, 14);
+}
+
+#input2 {
+  width: 150px;
+  height: 65px;
+  border-radius: 30px;
+  background-color: rgb(74, 72, 72);
+  color: white;
+  border: 1px solid #b1adad;
+}
+
+#input1:hover {
+  background-color: rgb(241, 46, 46);
+}
+
+#input2:hover {
+  background-color: rgb(190, 45, 45);
+}
+.key{
+  width: 450px;
+  height: 600px;
+  margin: auto;
+  
+}
