@@ -18,7 +18,7 @@ function App() {
       setDisplay(eval(display))
     }
     catch (error) {
-      setDisplay("Syntax Error\n[ac] to cancel")
+      setDisplay("Syntax Error")
 
     }
   }
